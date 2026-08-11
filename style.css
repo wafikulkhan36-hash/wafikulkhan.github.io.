@@ -36,8 +36,4 @@ nav a{color:var(--muted);text-decoration:none;font-weight:600}
 .contact-card a{color:#bfdbfe;text-decoration:none}
 footer{padding:32px 0 48px;color:#94a3b8;text-align:center}
 @media(max-width:860px){.hero-grid{grid-template-columns:1fr}nav{flex-direction:column;gap:14px}}
-/* Blue headings for research cards */
-.card h3{
-  color:#93c5fd;
-  font-weight:700;
-}
+
