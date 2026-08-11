@@ -25,6 +25,10 @@ nav a{color:var(--muted);text-decoration:none;font-weight:600}
 .section{padding:34px 0}
 .section-title{font-size:2rem;margin-bottom:22px}
 .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card h3{
+  color:#93c5fd;
+  font-weight:700;
+}
 .card,.timeline-item,.publication,.contact-card{background:rgba(17,24,39,.9);border:1px solid rgba(148,163,184,.12);border-radius:20px;padding:22px}
 .timeline{display:grid;gap:18px}
 .timeline-item .date{color:#93c5fd;font-weight:700;font-size:.92rem}
