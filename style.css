@@ -29,7 +29,17 @@ nav a{color:var(--muted);text-decoration:none;font-weight:600}
   color:#93c5fd;
   font-weight:700;
 }
-.card,.timeline-item,.publication,.contact-card{background:rgba(17,24,39,.9);border:1px solid rgba(148,163,184,.12);border-radius:20px;padding:22px}
+.card,.timeline-item,.publication,.contact-card{
+  background:rgba(17,24,39,.9);
+  border:1px solid rgba(148,163,184,.12);
+  border-radius:20px;
+  padding:22px
+}
+
+.card h3{
+  color:#60a5fa !important;
+  font-weight:700;
+}
 .timeline{display:grid;gap:18px}
 .timeline-item .date{color:#93c5fd;font-weight:700;font-size:.92rem}
 .publication{border-left:4px solid var(--primary);margin-bottom:16px}
